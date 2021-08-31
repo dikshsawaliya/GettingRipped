@@ -17,7 +17,7 @@ public class SecondActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_second2);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -25,7 +25,7 @@ public class SecondActivity2 extends AppCompatActivity {
 
         newArray = new int[]
                 {
-                        R.id.bow_pose, R.id.bridge_pose, R.id.chair_pose, R.id.child_pose,R.id.cobbler_pose, R.id.playji_pose, R.id.pauseji_pose, R.id.boat_pose
+                        R.id.bow_pose2, R.id.bridge_pose2, R.id.chair_pose2, R.id.child_pose2,R.id.cobbler_pose2, R.id.playji_pose2, R.id.pauseji_pose2, R.id.boat_pose2
 
 
 

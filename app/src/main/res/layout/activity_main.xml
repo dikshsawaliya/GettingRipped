@@ -202,7 +202,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="5.0dp"
-                            android:text="Everyday 15 minutes"
+                            android:text="Rest for 60 sec. in between  sets"
                             android:textSize="15dp"
                             android:textColor="#ffff5722"
                             android:textStyle="bold"

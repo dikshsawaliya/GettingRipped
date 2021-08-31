@@ -81,6 +81,26 @@ public class ThirdActivity2 extends AppCompatActivity {
                 setContentView(R.layout.activity_boat2);
                 break;
 
+            case 10 :
+
+                setContentView(R.layout.activity_by);
+                break;
+
+            case 11 :
+
+                setContentView(R.layout.activity_boat2);
+                break;
+
+            case 12 :
+
+                setContentView(R.layout.activity_boat2);
+                break;
+
+            case 13 :
+
+                setContentView(R.layout.activity_boat2);
+                break;
+
 
         }
 
