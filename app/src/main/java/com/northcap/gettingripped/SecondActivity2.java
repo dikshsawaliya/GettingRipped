@@ -25,7 +25,7 @@ public class SecondActivity2 extends AppCompatActivity {
 
         newArray = new int[]
                 {
-                        R.id.bow_pose2, R.id.bridge_pose2, R.id.chair_pose2, R.id.child_pose2,R.id.cobbler_pose2, R.id.playji_pose2, R.id.pauseji_pose2, R.id.boat_pose2
+                        R.id.bow_pose2, R.id.bridge_pose2, R.id.chair_pose2, R.id.child_pose2,R.id.cobbler_pose2 , R.id.cow_pose2, R.id.playji_pose2, R.id.pauseji_pose2, R.id.boat_pose2, R.id.by_pose2, R.id.dog_pose2, R.id.cat_pose2
 
 
 

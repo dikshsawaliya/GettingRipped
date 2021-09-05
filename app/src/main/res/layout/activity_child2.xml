@@ -98,7 +98,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#ECDEF8"
-                        android:text="@string/pose6"
+                        android:text="@string/pose13"
                         android:textColor="@android:color/black"
                         android:textSize="18sp"
                         />
