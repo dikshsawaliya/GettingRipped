@@ -1,24 +1,24 @@
 <resources>
     <string name="app_name">Getting Ripped</string>
 
-    <string name="pose1">       Step 1: \n\n
-                                Step 2: \n\n
-                                Step 3: \n\n
-                                Step 4: \n\n
+    <string name="pose1">       Step 1 : Begin by lying on your side, forearm down, knees slightly bent.\n\n
+                                Step 2 : Roll slightly back onto your glute, like your sitting on the back pocket of your blue jeans and lift legs a few inches off the mat. Bring top hand behind the head so elbow is also bent.\n\n
+                                Step 3 : Lift legs up bringing your knees to your elbow while at the same time crunching your elbow toward your knee. Squeeze your waistline with each lift. Perform desired number of reps and switch sides. \n\n
+
 
                                 </string>
 
-    <string name="pose2">       Step 1: \n\n
-                                Step 2: \n\n
-                                Step 3: \n\n
-                                Step 4: \n\n
-
+    <string name="pose2">       Step 1 : Lay down on your back on the exercising floor with your knees bent. Place your feet flat and widen then slightly more than  your shoulder-apart-width.
+                                Step 2 : Starting position: Extend your arms towards the downward direction by the side of the body with your palms facing inwards.\n\n
+                                Step 3 : While exhaling your breath, crunch your abs in the forward right direction. Try to catch your right ankle with the right extended arm (step 2). Stay there till the count of one.\n\n
+                                Step 4 : Now while you’re inhaling your breath, leave the right ankle you caught hold of with your right arm and very slowly move back to the starting position.\n\n
+                                Step 5 : Repeat the same for the left side.\n\n
                                 </string>
 
-    <string name="pose3">       Step 1: \n\n
-                                Step 2: \n\n
-                                Step 3: \n\n
-                                Step 4: \n\n
+    <string name="pose3">       Step 1: Lie on your back and extend your legs up to a 45-degree angle. Keep your arms straight and in line with the floor, palms facing down. Lift your head, neck and shoulders slightly off the ground.\n\n
+                                Step 2: Keeping your legs stick straight and glued together with your toes pointed, start lowering one leg.\n\n
+                                Step 3: Raise your lowered leg and lower the other, focusing on keeping your core engaged.\n\n
+                                Step 4: Continue the movement, alternating between legs.\n\n
 
                                 </string>
 
