@@ -1,4 +1,7 @@
 # GettingRipped
+
+## Welcome to the repository of my andoird project - Getting Ripped
+
 ![WhatsApp Image 2021-09-07 at 1 07 29 PM (5)](https://user-images.githubusercontent.com/80209884/132304840-119bd7a4-25e0-486e-9a6b-4245e5c76c4c.jpeg)
  
 ![WhatsApp Image 2021-09-07 at 1 07 29 PM (6)](https://user-images.githubusercontent.com/80209884/132305074-7002dbda-2c12-4bca-8c98-7054d1fd0aac.jpeg)
