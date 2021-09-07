@@ -1,4 +1,4 @@
-# GettingRipped
+# GettingRipped 
 
 ## Welcome to the repository of my andoird project - Getting Ripped
 
