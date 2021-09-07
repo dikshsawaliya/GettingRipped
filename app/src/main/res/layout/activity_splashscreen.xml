@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/splashscreen"
     tools:context=".Splashscreen">
 
@@ -33,6 +34,7 @@
         android:textColor="#FFF"
         android:textSize="35dp"
         android:textStyle="bold" />
+
 
 
 

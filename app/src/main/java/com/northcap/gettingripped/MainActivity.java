@@ -9,7 +9,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toolbar;
 
+import com.huawei.agconnect.appmessaging.AGConnectAppMessaging;
+import com.huawei.agconnect.appmessaging.AGConnectAppMessagingOnClickListener;
+import com.huawei.agconnect.appmessaging.model.AppMessage;
+import com.huawei.hmf.tasks.OnFailureListener;
+import com.huawei.hmf.tasks.OnSuccessListener;
 import com.huawei.hmf.tasks.Task;
+import com.huawei.hms.aaid.HmsInstanceId;
+import com.huawei.hms.aaid.entity.AAIDResult;
 import com.huawei.hms.common.ApiException;
 import com.huawei.hms.support.account.AccountAuthManager;
 import com.huawei.hms.support.account.request.AccountAuthParams;
@@ -28,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+        inAppMessage();
+        getAAID();
 
         findViewById(R.id.login);
         login = (Button)findViewById(R.id.login);
@@ -48,10 +60,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         android.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        
-        
+
+
 
 
 
@@ -78,6 +92,43 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void inAppMessage()
+    {
+        //AGConnectAppMessaging.getInstance().setFetchMessageEnable(true);
+        AGConnectAppMessaging appMessaging = AGConnectAppMessaging.getInstance();
+        //
+        appMessaging.setFetchMessageEnable(true);
+        appMessaging.setDisplayEnable(true);
+        appMessaging.setForceFetch();
+        ClickListener listener = new ClickListener();
+        appMessaging.addOnClickListener(listener);
+    }
+
+    public class ClickListener implements AGConnectAppMessagingOnClickListener {
+        @Override
+        public void onMessageClick(AppMessage appMessage) {
+            // Obtain the content of the tapped message.
+        }
+    }
+
+    public void getAAID(){
+        Task<AAIDResult> idResult = HmsInstanceId.getInstance(getApplicationContext()).getAAID();
+        idResult.addOnSuccessListener(new OnSuccessListener<AAIDResult>() {
+            @Override
+            public void onSuccess(AAIDResult aaidResult) {
+                // Called when the AAID is obtained.
+                String aaid = aaidResult.getId();
+                Log.d("TAG", "getAAID successfully, aaid is " + aaid );
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(Exception myException) {
+                // Called when the AAID fails to be obtained.
+                Log.d("TAG", "getAAID failed, catch exceptio : " + myException);
+            }
+        });
     }
 
     @Override
