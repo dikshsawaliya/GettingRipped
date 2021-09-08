@@ -3,15 +3,26 @@
 ## Welcome to the repository of my andoird project - Getting Ripped
 
 ⚡-This app allows you choose between 2 types of exercises 
-    1.Core
-    2.Weght Training
+   <br />
+        1.Core
+   <br />
+        2.Weght Training
+   <br />
+   
 ⚡-Getting Ripped contains many exercises in eaxh of its section
+<br />
+
 ⚡-It even contains GIF of that particular exercise that will help you understand the exercise better
+<br />
+
 ⚡-It also has timer which help you track your workout or how much rest you have left between your sets.
+<br />
+
 ⚡-More contents and user experience will be added later 
+<br />
 
 🔭- Check out the screenshots below :
-
+<br />
 
 ![WhatsApp Image 2021-09-07 at 1 07 29 PM (5)](https://user-images.githubusercontent.com/80209884/132304840-119bd7a4-25e0-486e-9a6b-4245e5c76c4c.jpeg)
  
