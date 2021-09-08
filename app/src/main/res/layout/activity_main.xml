@@ -294,7 +294,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="Nutrition for Tips"
+                            android:text="Tips for beginners"
                             android:textColor="#ff000000"
                             android:textSize="30dp"
                             android:textStyle="bold"
